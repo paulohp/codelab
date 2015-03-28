@@ -1,0 +1,12 @@
+<html>
+<body>
+	<ul>
+		<% for(var i=0; i < data.length; i++) { %>
+			<li>
+				<a href="/post/<%=data[i]._id%>"><%= data[i].name%></a>
+			</li>
+		<% } %>
+	</ul>
+	<a href="/">New post +</a>
+</body>
+</html>
